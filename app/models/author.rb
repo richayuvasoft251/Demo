@@ -5,5 +5,9 @@ class Author < ApplicationRecord
     def method_changes
     	
     end
+
+    def master_chnages
+    	
+    end
 end
 
