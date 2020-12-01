@@ -6,6 +6,9 @@ class PostsController < ApplicationController
   def index
     @posts = Post.joins(:author)
   end
+  def new_method
+    
+  end
 
   # GET /posts/1
   # GET /posts/1.json
