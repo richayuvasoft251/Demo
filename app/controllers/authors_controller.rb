@@ -67,6 +67,10 @@ class AuthorsController < ApplicationController
   def merge_changes
     
   end
+
+  def rebase_chanegs
+    
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_author
